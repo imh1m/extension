@@ -1,0 +1,96 @@
+body {        
+    margin: 0;    
+    padding: 10px;       
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 600px;
+}
+
+input {
+    width: 593px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+#input-btn {
+    background: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-top: 3px;
+}
+
+#input-btn:hover {
+    background: black;
+    color: white;
+}
+
+#tab-btn {
+    background: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+#tab-btn:hover {
+    background: black;
+    color: white;
+}
+
+#delete-btn {
+    background: white;
+    color: blueviolet;
+    padding: 10px 20px;
+    border: 1px solid;
+    font-weight: bold;
+    position: fixed;
+    right: 2%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+#delete-btn:hover {
+    background: black;
+    color: white;
+}
+
+#delete-link-btn {
+    background: blueviolet;
+    color: white;
+    padding: 2px 3px;
+    border: solid;
+    font-weight: bold;
+    position: fixed;
+    right: 2%;
+    transition-duration: 0.4s;
+    cursor: pointer
+}
+
+#delete-link-btn:hover {
+    background: black;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 7px;
+}
+
+a {
+    color:black;
+}

@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.1",
+    "name": "Useless link saver",
+    
+    "action": {
+        "default_title": "Useless link saver",
+        "default_icon": {
+           
+            "16": "icon16.png",
+            "32": "icon32.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+
+        },
+       
+        "default_popup": "index.html"
+    },
+    
+    "permissions": ["tabs"]
+
+}
